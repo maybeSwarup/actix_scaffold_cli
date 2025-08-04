@@ -1,6 +1,8 @@
 [package]
 name = "actix_scaffold_cli"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+clap = { version = "4.0", features = ["derive"] }
+tera = "1.19.0"
